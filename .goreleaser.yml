@@ -23,7 +23,7 @@ build:
     - -s -w # Don't set main.version.
 
 gomod:
-  proxy: true
+  proxy: false
 
 archives:
   - name_template: "{{.Binary}}_{{.Os}}_{{.Arch}}"
